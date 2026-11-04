@@ -3,6 +3,9 @@ import { FaGraduationCap, FaHeartbeat, FaHandHoldingHeart, FaBuilding, FaBars, F
 import "./App.css";
 
 import building from "./assets/building.png";
+import ashaImg from "./assets/Dr_asha.jpeg";
+import kishorImg from "./assets/kishor.jpeg";
+import jagdishImg from "./assets/Jagdish.jpeg";
 
 // Load every image in src/assets/crousel_images (sorted numerically by file name)
 const carouselContext = require.context("./assets/crousel_images", false, /\.(png|jpe?g|webp)$/i);
@@ -84,9 +87,9 @@ const CONTENT = {
       phoneLabel: "मो.",
       members: [
         { name: "धाराराम परिहार", role: "अध्यक्ष",    img: "/Dharam_ram.png", phone: "9413395331" },
-        { name: "डॉ. आशा परमार",  role: "उपाध्यक्ष",  img: null,              phone: "9929475910" },
-        { name: "किशोर गुणपाल",   role: "सचिव",       img: null,              phone: "9413250255" },
-        { name: "जगदीश मेघवाल",   role: "कोषाध्यक्ष", img: null,              phone: "9829950399" },
+        { name: "डॉ. आशा परमार",  role: "उपाध्यक्ष",  img: ashaImg,           phone: "9929475910" },
+        { name: "किशोर गुणपाल",   role: "सचिव",       img: kishorImg,         phone: "9413250255" },
+        { name: "जगदीश मेघवाल",   role: "कोषाध्यक्ष", img: jagdishImg,        phone: "9829950399" },
       ],
     },
     footer: {
@@ -169,9 +172,9 @@ const CONTENT = {
       phoneLabel: "Ph.",
       members: [
         { name: "Dhara Ram Parihar", role: "President",      img: "/Dharam_ram.png", phone: "9413395331" },
-        { name: "Dr. Asha Parmar",   role: "Vice President",  img: null,              phone: "9929475910" },
-        { name: "Kishor Gunpal",     role: "Secretary",       img: null,              phone: "9413250255" },
-        { name: "Jagdish Meghwal",   role: "Treasurer",       img: null,              phone: "9829950399" },
+        { name: "Dr. Asha Parmar",   role: "Vice President",  img: ashaImg,           phone: "9929475910" },
+        { name: "Kishor Gunpal",     role: "Secretary",       img: kishorImg,         phone: "9413250255" },
+        { name: "Jagdish Meghwal",   role: "Treasurer",       img: jagdishImg,        phone: "9829950399" },
       ],
     },
     footer: {
