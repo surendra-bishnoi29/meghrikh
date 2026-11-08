@@ -56,20 +56,26 @@ const CONTENT = {
       donate: "योगदान करें",
     },
     objectives: {
-      title: "संस्था के उद्देश्य",
-      desc: "इस उद्देश्य की पूर्ति के लिये संस्था निम्नलिखित कार्य करती है:",
+      title: "संगठन के उद्देश्य",
+      subtitle: "हमारा मिशन एवं सेवा के प्रमुख क्षेत्र",
+      desc: "संगठन शिक्षा, सामाजिक कल्याण, महिला सशक्तिकरण, स्वास्थ्य सेवा, पर्यावरण संरक्षण एवं आर्थिक आत्मनिर्भरता को बढ़ावा देकर समाज के सर्वांगीण विकास के लिए प्रतिबद्ध है। इन उद्देश्यों की प्राप्ति हेतु संगठन निम्नलिखित गतिविधियाँ संचालित करेगा:",
       items: [
-        { title: "आर्थिक सहायता:", desc: "समाज के आर्थिक रूप से कमजोर, जरूरतमंद और प्रतिभावान छात्र-छात्राओं को आर्थिक सहयोग, भोजन और कपड़े निःशुल्क उपलब्ध कराना ।" },
-        { title: "महिला सशक्तिकरण:", desc: "महिलाओं के लिए निःशुल्क शिक्षा, कौशल विकास और लघु कुटीर उद्योगों के माध्यम से उन्हें आत्मनिर्भर बनाने का वातावरण तैयार करना ।" },
-        { title: "शैक्षणिक विकास:", desc: "पुस्तकालय, वाचनालय, छात्रावास और शिक्षण-प्रशिक्षण संस्थानों की स्थापना व संचालन करना ताकि प्रगतिशील विचारों का प्रसार हो सके ।" },
-        { title: "निःशुल्क चिकित्सा:", desc: "चिकित्सालय और औषधालय संचालित करना तथा गरीब, असहाय और दिव्यांग व्यक्तियों को निःशुल्क चिकित्सा सहायता प्रदान करना ।" },
-        { title: "नशामुक्ति और जन-जागृति:", desc: "आम नागरिकों को नशा मुक्ति के प्रति जागरूक करना और सामाजिक कुरीतियों, अंधविश्वास एवं छुआछूत जैसी कुप्रथाओं को मिटाने का प्रयास करना ।" },
-        { title: "कृषि और स्वरोजगार:", desc: "छोटे किसानों की मदद करना और युवाओं को आधुनिक खेती, सिंचाई तथा लघु उद्योगों से संबंधित नवीनतम जानकारी और प्रशिक्षण देना ।" },
-        { title: "असहायों की सेवा:", desc: "विधवाओं, अनाथों, रोगियों और दुर्घटनाग्रस्त लोगों को मानसिक, सामाजिक और आर्थिक संबल प्रदान करना ।" },
-        { title: "योग और पर्यावरण:", desc: "आमजन के स्वास्थ्य के लिए योग व ध्यान कक्षाओं का संचालन करना और वृक्षारोपण के माध्यम से पर्यावरण संरक्षण के कार्य करना ।" },
-        { title: "संवैधानिक मूल्यों का प्रसार:", desc: "समाज में समानता, स्वतंत्रता, भाईचारा और लोकतांत्रिक मूल्यों का विस्तार करना तथा चरित्रवान नागरिक तैयार करना ।" },
-        { title: "आपदा प्रबंधन:", desc: "अकाल, बाढ़, भूकंप और अग्निकांड जैसी प्राकृतिक आपदाओं के समय पीड़ितों की हर संभव सहायता करना ।" },
+        { title: "आर्थिक सहायता एवं शैक्षणिक सहयोग", desc: "आर्थिक रूप से कमजोर, वंचित एवं मेधावी विद्यार्थियों को उच्च गुणवत्ता वाली शिक्षा प्राप्त करने तथा उनके उज्ज्वल भविष्य के निर्माण हेतु आर्थिक सहायता, निःशुल्क भोजन, वस्त्र, शैक्षणिक सामग्री एवं अन्य आवश्यक सुविधाएँ उपलब्ध कराना।" },
+        { title: "महिला सशक्तिकरण एवं आर्थिक आत्मनिर्भरता", desc: "महिलाओं को निःशुल्क शिक्षा, व्यावसायिक प्रशिक्षण, कौशल विकास एवं उद्यमिता के अवसर उपलब्ध कराकर उन्हें सशक्त बनाना। साथ ही स्वरोजगार, लघु एवं कुटीर उद्योगों को प्रोत्साहित करना, ताकि महिलाएँ आर्थिक रूप से स्वतंत्र एवं आत्मनिर्भर बन सकें।" },
+        { title: "शैक्षणिक आधारभूत संरचना एवं ज्ञान का विकास", desc: "समाज के सभी वर्गों में शिक्षा, ज्ञान, नवाचार एवं प्रगतिशील सोच को बढ़ावा देने के लिए पुस्तकालय, वाचनालय, छात्रावास, शिक्षण संस्थान, कोचिंग सेंटर एवं व्यावसायिक प्रशिक्षण संस्थान स्थापित करना, संचालित करना एवं उन्हें सहयोग प्रदान करना।" },
+        { title: "स्वास्थ्य सेवाएँ एवं निःशुल्क चिकित्सा सहायता", desc: "अस्पताल, औषधालय, चिकित्सा केंद्र एवं अन्य स्वास्थ्य सुविधाएँ स्थापित करना एवं संचालित करना। आर्थिक रूप से कमजोर वर्गों, वंचित व्यक्तियों एवं दिव्यांगजनों को निःशुल्क अथवा रियायती दरों पर चिकित्सा उपचार, स्वास्थ्य सेवाएँ एवं आवश्यक सहायता उपलब्ध कराना।" },
+        { title: "नशामुक्ति एवं सामाजिक जागरूकता", desc: "नशीले पदार्थों के सेवन एवं अन्य प्रकार के व्यसनों के विरुद्ध जन-जागरूकता अभियान, शैक्षणिक कार्यक्रम एवं परामर्श शिविर आयोजित करना। इसके साथ ही अंधविश्वास, छुआछूत, भेदभाव एवं अन्य सामाजिक कुरीतियों को समाप्त करने की दिशा में कार्य करना।" },
+        { title: "कृषि विकास एवं आजीविका संवर्धन", desc: "लघु एवं सीमांत किसानों को आधुनिक कृषि पद्धतियों, टिकाऊ खेती, उन्नत सिंचाई तकनीकों एवं कृषि से संबंधित सहायक गतिविधियों के संबंध में जागरूकता, मार्गदर्शन एवं प्रशिक्षण प्रदान करना। साथ ही सतत आजीविका के लिए उद्यमिता, कौशल विकास एवं लघु उद्योगों को प्रोत्साहित करना।" },
+        { title: "कमजोर एवं वंचित वर्गों का कल्याण एवं सहयोग", desc: "विधवाओं, अनाथों, निराश्रित व्यक्तियों, परित्यक्त व्यक्तियों, गंभीर बीमारियों से पीड़ित व्यक्तियों, दुर्घटना पीड़ितों एवं समाज के अन्य कमजोर वर्गों को भावनात्मक, मानसिक, सामाजिक एवं आर्थिक सहायता प्रदान करना, ताकि उनके सम्मान, सुरक्षा एवं कल्याण को सुनिश्चित किया जा सके।" },
+        { title: "योग, स्वास्थ्य एवं पर्यावरण संरक्षण", desc: "योग, ध्यान, स्वास्थ्य जागरूकता एवं आरोग्य कार्यक्रमों के माध्यम से शारीरिक, मानसिक एवं आध्यात्मिक स्वास्थ्य को बढ़ावा देना। साथ ही वृक्षारोपण, जैव विविधता संरक्षण, जल संरक्षण एवं सतत विकास जैसे पर्यावरण संरक्षण संबंधी कार्य करना।" },
+        { title: "संवैधानिक एवं मानवीय मूल्यों का संवर्धन", desc: "भारतीय संविधान में निहित न्याय, स्वतंत्रता, समानता एवं बंधुता के सिद्धांतों का प्रचार-प्रसार करना। साथ ही लोकतांत्रिक मूल्यों, सामाजिक सद्भाव, राष्ट्रीय एकता, आपसी सम्मान, मानवीय गरिमा एवं नैतिक चरित्र को बढ़ावा देना।" },
+        { title: "आपदा राहत एवं मानवीय सहायता", desc: "सूखा, बाढ़, भूकंप, आगजनी एवं अन्य प्राकृतिक तथा मानव निर्मित आपदाओं से प्रभावित व्यक्तियों एवं समुदायों को तत्काल एवं व्यापक मानवीय सहायता प्रदान करना। इसके अंतर्गत राहत, पुनर्वास एवं पुनर्निर्माण संबंधी गतिविधियाँ संचालित करना।" },
       ],
+      commitment: {
+        title: "हमारा संकल्प",
+        quote: "ज्ञान, समर्पण एवं आपसी सहयोग के माध्यम से समाज की सेवा करना तथा उसका सर्वांगीण उत्थान सुनिश्चित करना।",
+        text: "संगठन एक ऐसे समावेशी, शिक्षित, स्वस्थ, सशक्त एवं आत्मनिर्भर समाज के निर्माण के लिए निरंतर प्रयासरत रहेगा, जहाँ प्रत्येक व्यक्ति को सम्मानपूर्वक जीवन जीने, समान अवसर प्राप्त करने तथा राष्ट्र निर्माण में सार्थक योगदान देने का अधिकार एवं अवसर उपलब्ध हो।",
+      },
     },
     gallery: {
       title: "हमारी झलकियाँ",
@@ -142,19 +148,25 @@ const CONTENT = {
     },
     objectives: {
       title: "Objectives of the Organisation",
-      desc: "To fulfill this objective, the organisation undertakes the following activities:",
+      subtitle: "Our Mission and Areas of Service",
+      desc: "The organisation is committed to the holistic development of society by promoting education, social welfare, women's empowerment, healthcare, environmental sustainability and economic self-reliance. To achieve these objectives, the organisation undertakes the following activities:",
       items: [
-        { title: "Financial Support:", desc: "To provide financial assistance, free food and clothing to economically weaker, needy and talented students of the community." },
-        { title: "Women's Empowerment:", desc: "To create an environment for making women self-reliant through free education, skill development and small cottage industries." },
-        { title: "Educational Development:", desc: "To establish and operate libraries, reading rooms, hostels and teaching-training institutes to spread progressive ideas." },
-        { title: "Free Medical Aid:", desc: "To operate hospitals and dispensaries and provide free medical assistance to the poor, helpless and differently-abled persons." },
-        { title: "De-addiction & Awareness:", desc: "To make ordinary citizens aware of de-addiction and strive to eradicate social evils like superstitions and untouchability." },
-        { title: "Agriculture & Self-Employment:", desc: "To help small farmers and provide youth with the latest information and training on modern farming, irrigation and small industries." },
-        { title: "Service to the Helpless:", desc: "To provide mental, social and financial support to widows, orphans, patients and accident victims." },
-        { title: "Yoga & Environment:", desc: "To conduct yoga and meditation classes for public health and carry out environmental conservation through tree plantation." },
-        { title: "Promotion of Constitutional Values:", desc: "To spread equality, freedom, brotherhood and democratic values in society and nurture people of good character." },
-        { title: "Disaster Management:", desc: "To provide all possible assistance to victims during natural disasters like drought, floods, earthquakes and fires." },
+        { title: "Financial Assistance & Educational Support", desc: "To provide financial assistance, free food, clothing, educational materials and other essential support to economically disadvantaged, underprivileged and meritorious students, enabling them to pursue quality education and build a brighter future." },
+        { title: "Women's Empowerment & Economic Independence", desc: "To empower women by facilitating access to free education, vocational training, skill development and entrepreneurship opportunities, while promoting self-employment and small-scale and cottage industries to help them achieve financial independence and self-reliance." },
+        { title: "Educational Infrastructure & Knowledge Development", desc: "To establish, operate and support libraries, reading rooms, hostels, educational institutions, coaching centres and vocational training institutes, fostering knowledge, learning, innovation and progressive thinking among all sections of society." },
+        { title: "Healthcare & Free Medical Assistance", desc: "To establish and operate hospitals, dispensaries, medical centres and healthcare facilities, and provide free or affordable medical treatment, healthcare services and assistance to economically weaker sections, underprivileged individuals and persons with disabilities." },
+        { title: "De-addiction & Social Awareness", desc: "To organise awareness campaigns, educational programmes and counselling initiatives against substance abuse and addiction, while working towards eliminating social evils such as superstition, untouchability, discrimination and other harmful social practices." },
+        { title: "Agricultural Development & Livelihood Promotion", desc: "To support small and marginal farmers through awareness, guidance and training in modern agricultural practices, sustainable farming, advanced irrigation techniques and allied activities, while promoting entrepreneurship, skill development and small-scale industries for sustainable livelihoods." },
+        { title: "Support for Vulnerable & Underprivileged Sections", desc: "To provide emotional, psychological, social and financial assistance to widows, orphans, abandoned individuals, persons suffering from illness, accident victims and other vulnerable sections of society, ensuring their dignity, security and well-being." },
+        { title: "Yoga, Wellness & Environmental Conservation", desc: "To promote physical, mental and spiritual well-being through yoga, meditation, health awareness and wellness programmes, while undertaking environmental conservation initiatives, including tree plantation, biodiversity protection, water conservation and sustainable development." },
+        { title: "Promotion of Constitutional & Human Values", desc: "To promote the principles of justice, liberty, equality and fraternity enshrined in the Constitution of India, while fostering democratic values, social harmony, national integration, mutual respect, human dignity and ethical character." },
+        { title: "Disaster Relief & Humanitarian Assistance", desc: "To extend prompt and comprehensive humanitarian assistance to individuals and communities affected by natural and man-made disasters, including droughts, floods, earthquakes, fires and other emergencies, through relief, rehabilitation and reconstruction initiatives." },
       ],
+      commitment: {
+        title: "Our Commitment",
+        quote: "To serve and uplift society through knowledge, dedication and cooperation.",
+        text: "The organisation strives to create an inclusive, educated, healthy, empowered and self-reliant society where every individual has equal opportunities to live with dignity and contribute meaningfully to nation-building.",
+      },
     },
     gallery: {
       title: "Our Gallery",
@@ -461,19 +473,27 @@ const Objectives = ({ t }) => (
       <div className="section-header text-center">
         <h2 className="section-title">{t.objectives.title}</h2>
         <div className="title-underline"></div>
+        <h3 className="objectives-subtitle">{t.objectives.subtitle}</h3>
         <p className="section-desc">{t.objectives.desc}</p>
       </div>
       <div className="objectives-content">
         <ul className="objectives-list">
           {t.objectives.items.map((obj, idx) => (
             <li key={idx} className="objective-item">
-              <span className="objective-icon"><FaHandHoldingHeart /></span>
+              <span className="objective-number">{idx + 1}</span>
               <span className="objective-text">
-                <strong>{obj.title}</strong> {obj.desc}
+                <strong className="objective-title">{obj.title}</strong>
+                <span className="objective-desc">{obj.desc}</span>
               </span>
             </li>
           ))}
         </ul>
+        <div className="commitment-box">
+          <span className="commitment-icon"><FaHandHoldingHeart /></span>
+          <h3 className="commitment-title">{t.objectives.commitment.title}</h3>
+          <p className="commitment-quote">"{t.objectives.commitment.quote}"</p>
+          <p className="commitment-text">{t.objectives.commitment.text}</p>
+        </div>
       </div>
     </div>
   </section>
